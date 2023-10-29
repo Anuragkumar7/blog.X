@@ -1,18 +1,18 @@
 import{Box,Typography,styled} from '@mui/material';
 
 const Image = styled(Box)`
-      background: url(https://images.pexels.com/photos/1591056/pexels-photo-1591056.jpeg?auto=compress&cs=tinysrgb&w=600) center/55% repeat-x #000;
+      background: url(https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=600) center/55% repeat-x #000;
     
     width: 100%;
     height: 50vh;
     display :flex;
     align-items: center;
-    justifie-content: center;
+    justify-content: center;
     flex-direction: column;
     `;
 
     const Heading = styled(Typography)`
-    font-size 70px;
+    font-size: 70px;
     color:#FFFFFF;
     line-height: 1
     `;
@@ -27,7 +27,7 @@ const Banner =() => {
         //<div>Hello from Banner</div>
         <Image>
             <Heading>BLOG</Heading>
-            <SubHeading>VAIBHAV</SubHeading>
+            <SubHeading>Blog.x</SubHeading>
         </Image>
     )
 }

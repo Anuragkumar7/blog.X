@@ -24,6 +24,5 @@ app.use('/',Router);
 // Call the Connection function from the database file to connect to the database
 Connection();
 
-console.log('hello');
 
 

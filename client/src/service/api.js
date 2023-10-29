@@ -81,8 +81,9 @@ const processError = (error)=>{
     }
 
 }
+ 
+ export const API = {};
 
-const API = {};
 
 for (const [key,value] of Object.entries(SERVICE_URLS)){
     API[key]  = (body,showUploadProgress,showDownloadProgress) =>
@@ -112,4 +113,4 @@ for (const [key,value] of Object.entries(SERVICE_URLS)){
 }
 
 
-export default API ;
+export default API;
